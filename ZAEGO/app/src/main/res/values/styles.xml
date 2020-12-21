@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <!--Status Bar 배경색-->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <!--Status Bar 글자색깔-->
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="defaultButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="urgentButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+</resources>

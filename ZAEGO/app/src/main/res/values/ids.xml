@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chunky_dunky" type="id" />
+    <item name="paranoise" type="id" />
+    <item name="search_view" type="id" />
+    <item name="hot_text" type="id" />
+    <item name="hot_item1" type="id" />
+    <item name="hot_item2" type="id" />
+    <item name="product_register_btn" type="id" />
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TypeActivity4"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/textlines">
+
+        <TextView
+            android:id="@+id/toolbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ZAEGO"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:background="?attr/actionModeCloseDrawable" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="100dp"
+        android:paddingBottom="80dp"
+        android:text="주식에 500만원을 투자한 당신!\n주식을 어떤 주기로 확인하고 있는가?"
+        android:textColor="#00B140"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/r_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오늘 장이 어땠는지 기상 시간에만 확인한다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="먼 미래를 보고 투자했으므로 확인할 필요가 없다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="매 시간마다 지인들 몰래 확인한다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="스마트폰은 나와 한 몸이다."
+            android:textSize="16sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bnt_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:background="#00B140"
+            android:text="다음"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

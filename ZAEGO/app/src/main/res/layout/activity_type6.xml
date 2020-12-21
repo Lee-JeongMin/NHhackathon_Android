@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TypeActivity6"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/textlines">
+
+        <TextView
+            android:id="@+id/toolbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ZAEGO"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:background="?attr/actionModeCloseDrawable" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="100dp"
+        android:paddingBottom="50dp"
+        android:text="계절이 바뀌어 옷 정리를 하는데\n입지 않는 옷이 쌓여 있다.\n이때 당신의 행동은?"
+        android:textColor="#00B140"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/r_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="그냥 잘 넣어둔다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="자주 입는 옷만 추려낸다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아깝더라도 버릴 옷은 버린다."
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/r_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="옷이 필요한 지인에게 나누어준다."
+            android:textSize="16sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bnt_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:background="#00B140"
+            android:text="다음"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
