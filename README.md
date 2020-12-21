@@ -1,7 +1,7 @@
 # NHhackathon_Android
 가치로운 리셀생활  **ZAEGO**
 
-기획 - 이수민, 전채희 / 개발 - [이정민](https://github.com/Lee-JeongMin), [임예빈](https://github.com/Yeabin-Lim), [전지원](https://github.com/jw070698)
+기획 - [이수민](https://blog.naver.com/dltnals_3360), 전채희 / 개발 - [이정민](https://github.com/Lee-JeongMin), [임예빈](https://github.com/Yeabin-Lim), [전지원](https://github.com/jw070698)
 
 개발 기간 : 2020.12.11 ~ 2020.12.14
 
